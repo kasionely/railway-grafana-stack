@@ -2,7 +2,7 @@ global:
   scrape_interval: 15s
   
 scrape_configs:
-  - job_name: 'your-app'
+  - job_name: 'korner-back'
     static_configs:
       - targets: ['korner-express.railway.internal:8080']
     metrics_path: /metrics
